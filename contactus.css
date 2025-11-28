@@ -677,7 +677,7 @@ html{
     padding-top: 30px;
     padding-bottom: 80px;
     font-size: 65px;
-    color: white;
+    color: black;
     transition: 0.5s;
 
 }
@@ -691,7 +691,7 @@ html{
     text-align: center;
     padding-top: 50px;
     font-size: 65px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/homebg8.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/forimage4.jpg);
     transition: 0.5s;
 
 }
@@ -938,12 +938,14 @@ html{
         padding-top: 0px;
         padding-bottom: 20px;
         font-size: 48px;
-        color: white;
+        color: black;
         transition: 0.5s;
     
     }
 
-     
+     .appointment h1{
+        color: black;
+     }
     
     
     
@@ -954,7 +956,7 @@ html{
         text-align: center;
         padding-top: 50px;
         font-size: 65px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/homebg8.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/forimage4.jpg);
         transition: 0.5s;
 
     
@@ -1073,9 +1075,13 @@ html{
   }
 
 @media (min-width: 320px) and (max-width: 480px){
+    .appointment{
+        color: black;
+    }
 
         .appointment h1{
                 font-size: 40px;
+                color: black;
             
             }
             
@@ -1083,18 +1089,29 @@ html{
 
 
 @media (min-width: 481px) and (max-width: 700px){
+    .appointment{
+        color: black;
+    }
+
 
         .appointment h1{
                 font-size: 70px;
+                color: black;
+
             
             }
 }
 
 
 @media (min-width: 701px) and (max-width: 857px){
+    .appointment{
+        color: black;
+    }
+
 
         .appointment h1{
                 font-size: 105px;
+                color: black;
             
             }
 }
@@ -1715,7 +1732,7 @@ html{
         padding-top: 0px;
         padding-bottom: 0px;
         font-size: 32px;
-        color: white;
+        color: black;
         transition: 0.5s;
     
     }
@@ -1730,7 +1747,7 @@ html{
         padding-top: 40px;
          padding-bottom: 40px;
         font-size: 65px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/homebg8.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/forimage4.jpg);
         transition: 0.5s;
     
     }
@@ -2722,7 +2739,7 @@ footer { position: static; }
         font-weight: 600;
         margin: 10px 0;
         
-        color: white;
+        color: black;
         transition: 0.5s;
     
     }

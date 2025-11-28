@@ -727,7 +727,7 @@ html{
     text-align: center;
     padding-top: 50px;
     font-size: 65px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/forimage4.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/forimage4.jpg);
     background-position: center;   
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -1440,7 +1440,7 @@ html{
         text-align: center;
         padding-top: 1px;
         font-size: 5px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.2)),url(images/forimage4.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/forimage4.jpg);
         transition: 0.5s;
         background-position: center;   
     background-repeat: no-repeat; 
@@ -2321,7 +2321,7 @@ footer { position: static; }
         text-align: center;
         padding-top: 1px;
         font-size: 5px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.3)),url(images/forimage4.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/forimage4.jpg);
         transition: 0.5s;
         background-position: center;   
     background-repeat: no-repeat; 
@@ -3091,7 +3091,7 @@ footer { position: static; }
         text-align: center;
         padding-top: 1px;
         font-size: 5px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.3)),url(images/forimage4.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/forimage4.jpg);
         transition: 0.5s;
         background-position: center;   
     background-repeat: no-repeat; 
@@ -6503,7 +6503,7 @@ background-size: cover;
         padding-top: 30px;
         padding-bottom: 30px;
         font-size: 60px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(images/graduationcap.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/forimage4.jpg);
         
         
 
@@ -7436,7 +7436,7 @@ footer { position: static; }
         padding-top: 40px;
         font-size: 65px;
         background:none;
-        
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/forimage4.jpg);
         transition: 0.5s;
 
     }
@@ -8380,7 +8380,7 @@ footer { position: static; }
         padding-top: 0px;
         font-size: 65px;
         background:none;
-        
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/forimage4.jpg);
         transition: 0.5s;
 
     }
