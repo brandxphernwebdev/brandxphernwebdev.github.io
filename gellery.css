@@ -2,12 +2,225 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    
 
 }
 
 html{
     scroll-behavior: smooth;
 }
+
+.viewmorebtndiv{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 0px;
+    
+}
+
+
+ .for-col2{
+        flex-basis: 30%;
+        color: black;
+        border-radius: 10px;
+        margin-bottom:60px;
+        padding-bottom: 10px;
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        transition: 0.5s;
+        
+      
+    
+    }
+
+    .for-col2:hover{
+   
+        
+        transition: 0.5s;
+    }
+
+    .for-col2 img{
+        width: 100%;
+       
+       padding-bottom: 0px;
+        border-radius: 10px;
+        top: 0;
+       left: 0;
+
+    }
+
+
+    
+
+    
+    .for2{
+        width: 100%;
+        background-color: none;
+        margin: auto;
+        text-align: center;
+        padding-top: 0px;
+        font-size: 65px;
+        color: black;
+        
+    }
+
+   
+
+
+    .forrow2{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction : row; 
+        flex-flow : wrap;
+        
+ 
+    }
+
+
+    .forBG2{
+        width: 100%;
+        background-size: cover;
+        margin: auto;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 80px;
+        font-size: 60px;
+        
+        
+        
+
+    }
+
+
+
+
+
+
+    .learnmorebtn2{
+        margin: auto;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        border: 1px solid #0070f3;
+        border-radius: 5px;
+        padding: 12px 34px;
+        margin-top: 0px;
+        font-size: 20px;
+        background: #0070f3;
+        cursor: pointer;
+        transition: 0.5s;
+
+    }
+
+
+    .learnmorebtn2:hover{
+        margin: auto;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        border: 1px solid #0070f3 ;
+        padding: 12px 34px;
+        font-size: 22px;
+        margin-top: 0px;
+        border-radius: 5px;
+        background: #0070f3;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+
+
+
+
+    .whyhireatutor2{
+        width: 100%;
+        margin: auto;
+        margin-top: 0px;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 65px;
+        color: white;
+        transition: 0.5s;
+        
+
+    }
+
+
+
+    .whyhireatutorBG2{
+        width: 100%;
+        background-size: cover;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 100px;
+        text-align: center;
+        padding-top: 0px;
+        font-size: 65px;
+          transition: 0.5s;
+        padding-bottom: 0px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+        
+    }
+
+
+
+    .whyhireatutorrow2{
+        margin-top: px;
+        display: flex;
+        justify-content: center;
+        flex-direction : row; 
+        flex-flow : wrap;
+ 
+    }
+
+
+    .whyhireatutor-col2{
+        margin: 0px;
+        flex-basis: 46%;
+        background: white;
+        border-radius: 10px;
+        margin-bottom: 1%;
+        margin-top: 0px;
+        padding:20px 12px;
+        box-sizing: border-box;
+        transition: 0.5s;
+    }
+
+
+    .whyhireatutor-col2:hover{
+        box-shadow: 0 0 20px 0px #0070f3 ;
+        transition: 0.5s;
+    }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1123,11 +1336,11 @@ html{
 
     }
 
-
 }
 
 
-  
+
+ 
 
 
 
@@ -2839,15 +3052,16 @@ footer{
     height:250px;
     width: 350px;
     overflow: hidden;
-    border:5px solid ivory;
+    border:2px solid #0070f3;
     border-radius: 10px;
     margin: 20px;
 
 }
 
 .gallery .image-container .image:hover{
-   box-shadow: 0 0 20px 0px ivory ;
+   box-shadow: 0 0 20px 0px #0070f3 ;
     transition-duration: .3s;
+    border:2px solid ;
 
 }
 
@@ -2861,3 +3075,665 @@ footer{
     transform: scale(1.4);
     
 }
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+ .for-col{
+        flex-basis: 50%;
+        color: black;
+        border-radius: 10px;
+        margin: 0px;
+        margin-bottom:0px;
+        padding-bottom: 0px;
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        background: none;
+        transition: 0.5s;
+      height: auto;
+      width: auto;
+    
+    }
+
+    
+    
+
+   
+
+    .for{
+        width: 90%;
+        background: none;
+        margin: auto;
+        margin-top: 0px;
+        text-align: center;
+        padding-top: 0px;
+        font-size: 65px;
+        color: black;
+    }
+
+   
+
+   
+
+
+    .forrow{
+        margin-top: 0px;
+        display: flex;
+        background: none;
+        justify-content: space-between;
+        flex-direction : row; 
+        flex-flow : wrap;
+ 
+    }
+
+
+    
+    .getstartedbtn{
+        margin: auto;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        border: 1px solid #0070f3;
+        border-radius: 5px;
+        padding: 12px 34px;
+        font-size: 15px;
+        background: #0070f3;
+        cursor: pointer;
+        transition: 0.5s;
+
+    }
+
+
+    .getstartedbtn:hover{
+        margin: auto;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        border: 1px solid #0070f3;
+        padding: 12px 34px;
+        font-size: 18px;
+        border-radius: 5px;
+        background: #0070f3;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+
+
+
+    .getstartedbtnwork{
+        text-align: left;
+    }
+
+
+
+
+
+
+    .whyhireatutor{
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 50px;
+        font-size: 65px;
+        color: white;
+        transition: 0.5s;
+
+    }
+
+
+
+    .whyhireatutorBG{
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(images/cfccv.jpg);
+        background-size: cover;
+        margin: auto;
+        margin-top: 0px;
+        text-align: center;
+        padding-top: 50px;
+        font-size: 65px;
+        transition: 0.5s;
+        padding-bottom: 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0 0 30px 0px rgba(8, 167, 207, 10);
+    }
+
+
+
+    .whyhireatutor h1{
+        font-size: 90px;
+        text-align: center;
+        margin: 0px;
+        color: black;
+        transition: 0.5s;
+
+    }
+    
+
+    .whyhireatutor h4{
+        font-size: 23px;
+
+        font-weight: 600;
+        text-align: left;
+        font-weight: 600;
+        padding-left: 20px;
+        margin: 10px 0;
+        color: black;
+        transition: 0.5s;
+
+    }
+
+
+
+    .whyhireatutor p{
+        color: black;
+        text-align: left;
+        font-size: 16px;
+        line-height: 25px;
+        padding: 10px;
+        padding-left: 20px;
+
+    }
+    .whyhireatutorrow{
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        flex-direction : row; 
+        flex-flow : wrap;
+ 
+    }
+
+
+    .whyhireatutor-col{
+        margin: 20px;
+        flex-basis: 46%;
+        background: white;
+        border-radius: 10px;
+        margin-bottom: 1%;
+        margin-top: 50px;
+        padding:20px 12px;
+        box-sizing: border-box;
+        transition: 0.5s;
+    }
+
+
+    .whyhireatutor-col:hover{
+        box-shadow: 0 0 20px 0px #0070f3 ;
+        transition: 0.5s;
+    }
+ 
+
+/*------------------------------------------------------------------------------------*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+.gallery-container {
+   
+        position: relative;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;       
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 0px;
+    padding: auto;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.video-wrapper {
+    
+    flex: 1 1;
+    position: relative;
+    padding-bottom: 25%; /    height: 0; 
+    width: auto;
+    margin: auto;
+    margin-bottom: 0px;
+    flex-basis: 35%;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.video-wrapper iframe {
+    position: absolute;
+     width: 100%;
+  box-sizing: border-box;
+    height: 100%;
+    border: 0;
+    
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 0px;      
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    min-height: 130vh;
+    line-height: 0px;
+}
+
+.video-wrapper {
+    
+    flex: 1 1; 
+    position: relative;
+    padding-bottom: 25%; 
+    height: 0; 
+    width: auto;
+    margin: auto;
+    flex-basis: 100%;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+
+.video-wrapper iframe {
+    position: absolute;
+     width: 100%;
+     height: 100%;
+  box-sizing: border-box;
+    height: auto;
+    border: 0;
+    
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .header{
+    
+        width: 100%;
+        height: 25vh;
+        padding-bottom: 0px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(images/headermobile123.png);
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+        background-repeat: no-repeat;
+    }
+
+
+       .booknowbtn{
+        
+        margin:2px ;
+        margin-top: 20px;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        border: 1px solid rgba(0, 112, 243, 0.9);
+        padding: 6px 7px;
+        font-size: 15px;
+        background-color: rgba(0, 112, 243, 0.9);
+        cursor: pointer;
+        border-radius: 3px;
+        transition: 0.3s;
+    }
+
+
+    .booknowbtn:hover{
+        margin-top: 20px;
+        margin:2px ;
+        display: inline-block;
+        text-decoration: none;
+        color: #0070f3;
+        border: 1px solid rgba(0, 112, 243, 0.95);
+        padding: 7px 10px;
+        font-size: 15px;
+        background: rgba(255, 255, 255, 0.95);
+        cursor: pointer;
+        border-radius: 3px;
+        transition: 0.3s;
+
+    }
+
+
+
+
+     .maintext h1 {
+    font-size: 17.5px;
+    margin-bottom: 0px;
+    
+    color: white;
+    }
+
+
+    .maintext h3{
+        font-size: 20.6px;
+        padding-bottom: 5px;
+        margin-bottom: 0px;
+        font-weight: 400;
+        }
+
+   
+}
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 765px) {
+    .header{
+    
+        width: 100%;
+        height: 40vh;
+        padding-bottom: 0px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(images/headermobile123.png);
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+        background-repeat: no-repeat;
+    }
+
+
+       .booknowbtn{
+        
+        margin:2px ;
+        margin-top: 20px;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        border: 1px solid rgba(0, 112, 243, 0.9);
+        padding: 8px 10px;
+        font-size: 18px;
+        background-color: rgba(0, 112, 243, 0.9);
+        cursor: pointer;
+        border-radius: 3px;
+        transition: 0.3s;
+    }
+
+
+    .booknowbtn:hover{
+        margin-top: 20px;
+        margin:2px ;
+        display: inline-block;
+        text-decoration: none;
+        color: #0070f3;
+        border: 1px solid rgba(0, 112, 243, 0.95);
+        padding: 10px 10px;
+        font-size: 19px;
+        background: rgba(255, 255, 255, 0.95);
+        cursor: pointer;
+        border-radius: 3px;
+        transition: 0.3s;
+
+    }
+
+
+
+
+     .maintext h1 {
+    font-size: 26.93px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    }
+
+
+
+      .maintext h3{
+        font-size: 24px;
+        padding-bottom: 5px;
+        margin-bottom: 0px;
+        font-weight: 400;
+        color: white;
+        }
+
+   
+}
+
+
+
+@media only screen and (min-width: 766px) and (max-width: 1024px) {
+    .header{
+    
+        width: 100%;
+        height: 80vh;
+        padding-bottom: 0px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(images/headermobile123.png);
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+        background-repeat: no-repeat;
+    }
+
+
+       .booknowbtn{
+        
+        margin-top: 40px;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        border: 1px solid rgba(0, 112, 243, 0.9);
+        padding: 12px 44px;
+        font-size: 20px;
+        background-color: rgba(0, 112, 243, 0.9);
+        cursor: pointer;
+        border-radius: 3px;
+        transition: 0.3s;
+    }
+
+
+    .booknowbtn:hover{
+        
+        display: inline-block;
+        text-decoration: none;
+        color: #0070f3;
+        border: 1px solid rgba(0, 112, 243, 0.95);
+         padding: 12px 44px;
+    font-size: 22px;
+        background: rgba(255, 255, 255, 0.95);
+        cursor: pointer;
+        border-radius: 3px;
+        transition: 0.3s;
+
+    }
+
+
+
+
+     .maintext h1 {
+    color: white;
+       font-size: 43px;
+        color: white;
+        padding-bottom: 10px;
+    }
+
+
+
+      .maintext h3{
+       font-size: 42.1px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 0px;
+        }
+
+   
+}
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1499px) {  
+
+    .header{
+    
+        width: 100%;
+        height: 105vh;
+        padding-bottom: 0px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(images/headermobile123.png);
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        max-width: 100%;
+        max-height: 105vh;
+        background-repeat: no-repeat;
+    }
+
+
+       .booknowbtn{
+        margin:20px ;
+        margin-top: 40px;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        border: 1px solid rgba(0, 112, 243, 1);
+        padding: 12px 44px;
+        font-size: 20px;
+        background-color: rgba(0, 112, 243, 1);
+        cursor: pointer;
+        border-radius: 3px;
+        transition: 0.3s;
+    }
+
+
+    .booknowbtn:hover{
+         margin:20px ;
+        margin-top: 40px;
+        display: inline-block;
+        text-decoration: none;
+        color: #0070f3;
+        border: 1px solid rgba(0, 112, 243, 0.95);
+         padding: 12px 44px;
+    font-size: 22px;
+        background: rgba(255, 255, 255, 0.95);
+        cursor: pointer;
+        border-radius: 3px;
+        transition: 0.3s;
+
+    }
+
+
+
+
+     .maintext h1 {
+    color: white;
+       font-size: 57.3px;
+        color: white;
+        padding-bottom: 10px;
+    }
+
+
+
+      .maintext h3{
+       font-size: 62.1px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 0px;
+        }
+
+   
+}
+
+
+
+
+@media only screen and (min-width: 1500px) and (max-width: 10000000000000000000000000000000px){
+
+
+     .header{
+    
+        width: 100%;
+        height: 100%;
+        padding-bottom: 0px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(images/headermobile123.png);
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+        background-repeat: no-repeat;
+    }
+    
+
+
+    .aboutusrow{
+        
+        display: flex;
+        justify-content: space-between;
+        flex-direction : column; 
+        flex-flow : wrap;
+ 
+    }
+
+
+    .aboutus-col{
+        margin: auto;
+        margin-left: 0%;
+        flex-basis: 100%;
+        background: none;
+        box-sizing: border-box;
+        
+    }
+
+}
+
+
+
+ 

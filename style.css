@@ -1476,7 +1476,7 @@ background-size: cover;
 
 
     .whyhireatutor-col2:hover{
-        box-shadow: 0 0 20px 0px #00e1ff ;
+        box-shadow: 0 0 20px 0px #0070f3 ;
         transition: 0.5s;
     }
  
@@ -5892,21 +5892,7 @@ footer{
         text-align: center;
     }
 
-    
-
-
-    
-
-
-    
-
-
-
-
-
-
-
-
+ 
 
 }
 
@@ -6352,7 +6338,7 @@ footer{
 
 
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 766px) and (max-width: 1024px) {
     .header{
     
         width: 100%;
@@ -6446,10 +6432,10 @@ footer{
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid rgba(0, 112, 243, 0.9);
+        border: 1px solid rgba(0, 112, 243, 1);
         padding: 12px 44px;
         font-size: 20px;
-        background-color: rgba(0, 112, 243, 0.9);
+        background-color: rgba(0, 112, 243, 1);
         cursor: pointer;
         border-radius: 3px;
         transition: 0.3s;
@@ -6536,3 +6522,9 @@ footer{
     }
 
 }
+
+
+
+
+
+   
